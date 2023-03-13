@@ -1,0 +1,335 @@
+/* All Workers */
+.workerGeneralContainer {
+  min-width: 20rem;
+  max-width: 40rem;
+  min-height: 10rem;
+  margin: 5rem auto;
+}
+
+.searchFilter {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.searchInput {
+  margin-top: 1rem;
+  outline: none;
+  border: 2px solid #302b63;
+  border-radius: 5px;
+}
+/* All Workers */
+
+/* Worker */
+.workerMainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  border: 5px solid #302b63;
+  border-radius: 4px;
+
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.658);
+
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.workerInnerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.workerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  width: 100%;
+
+  padding: 1rem;
+}
+
+.workerDetailsList {
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.workerDetailsList span {
+  font-weight: 500;
+}
+
+.workerButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.workerButtons button {
+  width: 100%;
+  color: rgba(226, 226, 226, 0.76);
+  background-color: rgba(20, 20, 20, 0.9);
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  letter-spacing: 2px;
+
+  font-weight: 500;
+  font-size: 1.4rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.workerButtons button:not(:last-child) {
+  margin-right: 0.5px;
+}
+
+.workerButtons button:hover {
+  background-color: rgba(226, 226, 226, 0.76);
+  color: rgba(20, 20, 20, 0.9);
+}
+
+.permissionsLists {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.permissionHeader {
+  margin: 1rem 0;
+  text-align: center;
+}
+/* Worker */
+
+/* Worker Page */
+.workerPageContainer {
+  width: 60%;
+  height: 60%;
+  margin: 10rem auto;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 5px solid #302b63;
+  border-radius: 4px;
+
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.658);
+}
+
+.workerPageDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 1rem;
+}
+
+.workerPageDetails ul {
+  list-style: none;
+}
+
+.workerPageDetails ul li {
+  font-size: 1.8rem;
+}
+
+.workerPageDetails ul li span {
+  font-weight: 500;
+}
+/* Worker Page */
+
+/* Add Worker / Edit Worker */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 20rem;
+  max-width: 60%;
+  min-height: 20rem;
+  max-height: 50rem;
+  margin: 5rem auto;
+
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.658);
+
+  overflow-y: scroll;
+}
+
+/* width */
+.formContainer::-webkit-scrollbar {
+  width: 3px;
+}
+
+.formContainer:hover::-webkit-scrollbar .formContainer::-webkit-scrollbar-thumb {
+  background: rgb(56, 38, 145);
+}
+
+/* Track */
+.formContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.formContainer::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+
+  z-index: 9999;
+}
+
+/* Handle on hover */
+.formContainer::-webkit-scrollbar-thumb:hover {
+  background: rgba(194, 186, 236, 0.432);
+}
+
+/* IE and Edge */ /*
+-ms-overflow-style: none;  
+*/
+/* Firefox */ /*
+scrollbar-width: none;  
+*/
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .subjects::-webkit-scrollbar {
+  display: none;
+} */
+
+.formInputGroup:first-child {
+  margin-top: 10rem;
+}
+
+.formInputGroup {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 0.3rem 1rem;
+  border-radius: 2px;
+  background-color: rgba(#fff, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+  border-radius: 6px;
+}
+
+.form-input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #55c57a;
+}
+
+.form-input:focus:invalid {
+  border-bottom: 3px solid #ff2727;
+}
+
+.form-input::-webkit-input-placeholder {
+  color: rgb(152, 152, 152);
+}
+
+.form-label {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 0.7rem;
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form-input:placeholder-shown + .form-label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
+
+.editPermissionHeader {
+  color: whitesmoke;
+  margin: 2rem auto;
+}
+
+.permissionsFlex {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.subscriptionPermission {
+  display: flex;
+  flex-direction: column;
+}
+
+.moviesPermission {
+  display: flex;
+  flex-direction: column;
+}
+
+.formCheckBoxGroup {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.form-label-checkbox {
+  color: whitesmoke;
+  font-weight: 500;
+
+  margin-right: .7rem;
+}
+
+.formBtnGroup {
+  display: flex;
+  flex-direction: row;
+
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.formBtnGroup button {
+  width: 100%;
+  color: rgba(226, 226, 226, 0.76);
+  background-color: rgba(20, 20, 20, 0.9);
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  letter-spacing: 2px;
+
+  font-weight: 500;
+  font-size: 1rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.formBtnGroup button:hover {
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+.formBtnGroup button:not(:last-child) {
+  margin-right: 1rem;
+}
+/* Add Worker / Edit Worker */

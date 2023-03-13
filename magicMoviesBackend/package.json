@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benefraimov/MagicMoviesClient.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benefraimov/MagicMoviesClient/issues"
+  },
+  "homepage": "https://github.com/benefraimov/MagicMoviesClient#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}

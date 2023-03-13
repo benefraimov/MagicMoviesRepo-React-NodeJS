@@ -1,0 +1,55 @@
+.container {
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 1rem 0.5rem;
+}
+
+.MainNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NestedNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainNavBtn,
+.NestedNavBtn {
+  margin: 1rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: azure;
+  font-weight: 500;
+
+  transition: all 0.3s ease-out;
+}
+.MainNavBtn {
+  font-size: 2.4rem;
+}
+.MainNavBtn:not(:last-child),
+.NestedNavBtn:not(:last-child) {
+  margin-right: 1rem;
+}
+.NestedNavBtn {
+  font-size: 1.8rem;
+}
+
+.MainNavBtn:hover,
+.NestedNavBtn:hover {
+  color: #F5A91B;
+}
+
+.userOnMenu {
+  position: absolute;
+  top: 12rem;
+  left: 2rem;
+
+  width: 30rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}

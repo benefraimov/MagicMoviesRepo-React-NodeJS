@@ -1,0 +1,14 @@
+.no-match {
+  text-align: center;
+}
+
+.no-match h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.no-match a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: blue;
+}
